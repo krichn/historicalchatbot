@@ -2,7 +2,7 @@ import os
 import tempfile
 from datetime import datetime
 
-import ffmpeg
+#import ffmpeg
 from aift import setting
 from aift.multimodal import audioqa, textqa, vqa
 from fastapi import APIRouter, Request
