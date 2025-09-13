@@ -12,7 +12,7 @@ from linebot.models import AudioMessage, ImageMessage, MessageEvent, TextMessage
 
 from app.configs import Configs
 
-router = APIRouter(tags=["Main"], prefix="/message")
+router = APIRouter(tags=["Main"], prefix="/messagexx")
 
 cfg = Configs()
 
