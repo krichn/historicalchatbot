@@ -16,6 +16,9 @@ from app import (
  #   service_image,# image service router
 )
 
+print("LINE TOKEN suffix:", os.getenv("LINE_CHANNEL_ACCESS_TOKEN", "")[-6:])
+print("DIFY KEY suffix:", os.getenv("DIFY_API_KEY", "")[-6:])
+
 app = FastAPI(
     title="aiforthai-line-chatbot",
     description="AIFORTHAI LINE CHATBOT WORKSHOP",
